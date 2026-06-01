@@ -1,14 +1,13 @@
-# Renoise Keystrokes Guide & Alfred Search 🎹🔍
+# Renoise Keystrokes Guide 🎹
 
 A beautifully formatted, searchable, and printable HTML cheat sheet for [Renoise](https://www.renoise.com/) tracker keyboard shortcuts. 
 
-This repository includes a generic "whitelabel" version using Renoise's default keybindings, an **Alfred Workflow** for macOS to search shortcuts from your keyboard, and a **Python generator script** so you can build a custom guide from your own modified Renoise keybindings!
+This repository includes a generic "whitelabel" version using Renoise's default keybindings, and a **Python generator script** so you can build a custom guide from your own modified Renoise keybindings!
 
 ## Features
 * 🎨 **Interactive HTML Guide**: A cyberpunk-themed, searchable, categorised cheat sheet.
 * 🖨 **Print-Ready**: Includes CSS optimized for printing a physical copy.
 * 🛠 **Customizable**: Feed it *your* custom Renoise keybindings to create a personalized guide.
-* 🔍 **Alfred Workflow (macOS)**: Instantly search your shortcuts system-wide using the `rk` keyword.
 
 ---
 
@@ -18,11 +17,6 @@ If you use the default Renoise keybindings, you don't need to generate anything!
 
 1. Simply open `Renoise_Keystrokes_Guide.html` in any web browser.
 2. Use the search bar at the top to filter for specific shortcuts, or click the categories to jump around.
-
-### Installing the Alfred Workflow (macOS only)
-1. Navigate to the `user.workflow...` folder.
-2. Double-click the `info.plist` or import the workflow directory into Alfred.
-3. Bring up Alfred and type `rk <search term>` (e.g., `rk render pattern`) to instantly find the keyboard shortcut.
 
 ---
 
