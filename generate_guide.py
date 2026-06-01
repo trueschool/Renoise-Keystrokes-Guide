@@ -5,7 +5,7 @@ import os
 def update_guide():
     # You can point this to the Whitelabel or your custom Keybindings XML
     xml_path = "KeyBindings-Whitelabel.xml"
-    html_path = "Renoise_Keystrokes_Guide.html"
+    html_path = "RenoiseKeys.html"
 
     if not os.path.exists(xml_path) or not os.path.exists(html_path):
         print(f"Error: Make sure {xml_path} and {html_path} are in the same folder.")
@@ -94,7 +94,7 @@ def update_guide():
         updated_html = pattern.sub(f'{new_html_content}        <div class="no-results" id="noResults">', html, count=1)
         with open(html_path, "w", encoding="utf-8") as f:
             f.write(updated_html)
-        print("Success! Renoise_Keystrokes_Guide.html has been updated with the whitelabel keybindings.")
+        print("Success! RenoiseKeys.html has been updated with the whitelabel keybindings.")
     else:
         print("Error: Could not find the target HTML structure to replace.")
 
